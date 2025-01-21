@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgba(146, 145, 145, 0.762);
+}
+
+
+  
+  
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Oswald", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  #map {
+    height: 400px;
+}
+
+.btn-show-city {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;
+  background-color: navy;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-show-city:hover {
+  background-color: #00264f;
+}
+  form {
+    background: #191a1d;
+    color: #d9d9d9;
+
+    text-align: center;
+    margin: 2rem;
+    border-radius: 2%;
+    width: 35%;
+    box-shadow: 0 0 3px #000000;
+  }
+  
+  input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 0.6rem;
+  }
+  
+  select {
+    width: 90%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 0.6rem;
+  }
+  
+  label {
+    margin-bottom: 0.6rem;
+    margin-right: 0.4rem;
+  }
+  
+
+.navbar {
+    height: 60px ;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.83); 
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-options a{
+    margin-right: 50px;
+}
+
+
+.navbar a {
+    color: rgba(255, 255, 255, 0.816);
+    text-decoration: none;
+    font-weight:normal;
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+}
+.nav-link::before {
+    content: ''; 
+    position: absolute; 
+    bottom: -2px; 
+    left: 0; 
+    width: 0; 
+    height: 2px; 
+    background-color: yellow; 
+    transition: width 0.3s ; 
+}
+.navbar a:hover {
+  color: white;
+}
+
+.nav-link:hover::before {
+    width: 80%; 
+    color: white;
+}
+.nav-item {
+  margin-right: 18px;
+}
+.card {
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(230, 229, 229, 0.871);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.06);
+}
+
+#bg-video {
+    height: 600px;
+    
+    margin: 5px;
+    border-radius: 5px;
+    background-position: center;
+   
+    background-size:auto;
+    
+    margin: 0px;
+    
+    
+}
+
+
+
+.bmi-info {
+  background-color: pink;
+  height: 300px;
+  width: 1220px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.text-body-emphasis {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.col-lg-8 {
+  text-align: center;
+}
+.gap-2{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.explore-exercise {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+#bmi-calculator ul {
+  padding-left: 2rem;
+}
+
+
+.btn {
+  cursor: pointer;
+  margin-top: 1.25rem;
+  padding: 0.6rem 2rem;
+  border-radius: 16px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  box-shadow: 0 0 3px #000000;
+}
+
+.btn-blue {
+  background: #177ddc;
+}
+
+.btn-blue:hover {
+  background: #191a1d;
+  border: 1px solid #177ddc;
+}
+
+.btn-dark {
+  background: #b2b5c0;
+}
+
+.btn-dark:hover {
+  background: #c9c9c9;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.page {
+  padding: 4rem 15% 4rem 15%;
+  text-align: center;
+}
+#bmi-result,
+#calorie-result {
+  padding: 0.5rem;
+  font-weight: normal;
+  background: #177ddc;
+  box-shadow: 0 0 4px #000000;
+  border-radius: 12px;
+  color: #ffffff;
+}
+
+
+#calorie-form {
+  border: 2px solid #177ddc;
+}
+
+#caloric-needs ul {
+  margin-left: 2rem;
+  color: #d9d9d9;
+}
+
+#male,
+#female {
+  width: 10%;
+}
+
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+td {
+  border-bottom: 1px solid #ddd;
+}
+
